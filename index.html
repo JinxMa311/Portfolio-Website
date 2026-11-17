@@ -16,21 +16,44 @@
 </head>
 <!--BODY SEGMENT BEGINS-->
 <body> <!--Visible page content goes here-->
-   <!--MAIN HEADER/VISIBLE TITLE-->
-  <header>~|^_^|~ Portfolio Website ~|^_^|~</header>
-    <!--CAPTION-->
-    <h1><strong>By: Noah C Davison</strong></h1>
+  <!--NAVBAR MAIN SEGMENT BEGINS-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!--NAVBAR MAIN TITLE-->
+  <a class="navbar-brand" href="#">~|^_^|~ Portfolio Website ~|^_^|~</a>
+  <!--NAVBAR BUTTON, TOGGLER, ICON-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!--NAVBAR DIVS FOR SPECIFIC SECTIONS-->
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#Home">Home Page <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#Skills">Skills/Experience</a>
+      <a class="nav-item nav-link" href="#LifeStory">My Life Story</a>
+      <a class="nav-item nav-link" href="#Contact">Contact Me!</a>
+    </div>
+  </div>
+  <!--END OF NAVBAR SEGMENT-->
+</nav>
+  <!--INTRODUCTION SEGMENT-->
+  <div class="INTRODUCTION-CONTAINER">
+    <div class="INTRODUCTION-TEXT">
+      <h1>Hey, you landed on my Portfolio! This website contains a few sections, you can navigate using the NavBar at the top. I hope you enjoyed my styling and learn a few interesting facts about me!</h1>
+    </div>
     <!--IMAGE USING "FIGURE" ELEMENT-->
-    <figure style="display: inline-block; margin: 0;">
+    <div class="INTRODUCTION-IMAGE-FIGURE">
+    <figure style="display: flexbox; margin: 4;">
       <img
         src="IMG_1260.JPG"
         alt=""
         style="width: 300px; height: auto; border: 3px solid #333333; display: flexbox;"
         />
-        <figcaption style="margin-top: 7px; font-size: 20px; font-family: 'Tiny5-1'; color: #555555;">
+        <figcaption style="margin-left: 7px; font-size: 20px; font-family: 'Tiny5-1'; color: #555555;">
           Pictured Above: Me :D
         </figcaption>
     </figure>
+    </div>
+  </div>
     <!--MY JAVASCRIPT LINK (DEFERRED)-->
   <script src="script.js" defer></script>
   <!--BOOTSTRAP JAVASCRIPT LINKS (!ORDERED!)-->
