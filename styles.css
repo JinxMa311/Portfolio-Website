@@ -6,6 +6,7 @@
     font-family: 'Tiny5-2';
     src: url('fonts/Tiny5Duo-Light.ttf')
 }
+
 body {
     background: #eebeae;
     background: radial-gradient(circle, rgb(39, 238, 205) 0%, rgb(105, 181, 238) 100%);
@@ -17,6 +18,8 @@ body {
     margin: auto;
     text-decoration: underline;
 }
+
+
 .INTRODUCTION-CONTAINER {
     display: flex;
     gap: 10px;
@@ -42,6 +45,8 @@ body {
     margin: 20px;
     text-decoration: underline;
 }
+
+
 .SKILLS-CONTAINER {
     display:flex;
     gap: 30px;
@@ -67,6 +72,24 @@ body {
 .EXPERIENCE-PARAGRAPH-TEXT {
     font-family: 'Tiny5-2', sans-serif;
     font-size: x-large;
+    text-align: left;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+
+.LIFE-STORY-TITLE-TEXT {
+    font-family: 'Tiny5-2', sans-serif;
+    font-size: xx-large;
+    text-align: left;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+
+.CONTACT-ME-TITLE-TEXT {
+    font-family: 'Tiny5-2', sans-serif;
+    font-size: xx-large;
     text-align: left;
     margin: 20px;
     text-decoration: underline;
