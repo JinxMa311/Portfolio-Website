@@ -8,7 +8,7 @@
 }
 body {
     background: #eebeae;
-    background: radial-gradient(circle, rgb(45, 175, 154) 0%, rgb(148, 196, 233) 100%);
+    background: radial-gradient(circle, rgb(39, 238, 205) 0%, rgb(105, 181, 238) 100%);
 }
 .navbar-brand {
     font-family: 'Tiny5-1', sans-serif;
@@ -19,12 +19,23 @@ body {
 }
 .INTRODUCTION-CONTAINER {
     display: flex;
-    gap: 70px;
+    gap: 10px;
 }
 .INTRODUCTION-IMAGE-FIGURE {
     flex: 1;
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
-.INTRODUCTION-TEXT {
+.INTRODUCTION-TITLE-TEXT {
+    font-family: 'Tiny5-2', sans-serif;
+    font-size: xx-large;
+    text-align: left;
+    margin: 20px;
+    text-decoration: underline;
+}
+.INTRODUCTION-PARAGRAPH-TEXT {
+    flex:1;
     font-family: 'Tiny5-2', sans-serif;
     font-size: xx-large;
     text-align: left;
@@ -35,7 +46,7 @@ body {
     display:flex;
     gap: 30px;
 }
-.SKILLS-TEXT {
+.SKILLS-TITLE-TEXT {
     font-family: 'Tiny5-2', sans-serif;
     font-size: xx-large;
     text-align: left;
@@ -48,7 +59,14 @@ body {
 .SKILLS-LIST-UNORDERED {
     flex:1;
     font-family: 'Tiny5-2', sans-serif;
-    font-size: larger;
+    font-size: x-large;
+    text-align: left;
+    margin: 20px;
+    text-decoration: underline;
+}
+.EXPERIENCE-PARAGRAPH-TEXT {
+    font-family: 'Tiny5-2', sans-serif;
+    font-size: x-large;
     text-align: left;
     margin: 20px;
     text-decoration: underline;
