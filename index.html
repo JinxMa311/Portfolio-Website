@@ -1,24 +1,215 @@
+<!--START OF FILE!-->
 <!DOCTYPE html>
+<!--LANGUAGE-->
 <html lang="en">
+
+<!--HEAD SEGMENT BEGINS-->
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--META TAGS-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--META PROPERTIES FOR OPEN GRAPH TAGS-->
+  <meta property="og:title" content="Page Title" />
+  <meta property="og:description" content="Brief summary of the page content." />
+  <meta property="og:image" content="https://example.com" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Your Site Name">
+  <meta property="og:locale" content="en_US">
+  <!--META PROPERTIES FOR Schema.org Microdata-->
+  <meta itemprop="name" content="Your Page Title" />
+  <meta itemprop="description" content="A brief summary of your page." />
+  <meta itemprop="image" content="https://example.com" />
+  <!--TITLE-->
   <title>Portfolio Website Noah D</title>
+  <!--BOOTSTRAP ICONS STYLESHEET-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+  <!--BOOTSTRAP CSS STYLESHEET-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--MY OWN CSS STYLESHEET-->
   <link rel="stylesheet" href="styles.css">
+  <!--END OF HEAD SEGMENT-->
 </head>
+<!--GOOGLE ANALYTICS LINK-->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-T2NWF422"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<!--BODY SEGMENT BEGINS-->
 <body>
-  <!-- Visible page content goes here -->
-  <header>~|^_^|~ Portfolio Website ~|^_^|~</header>
-    <h1><strong>By: Noah C Davison</strong></h1>
-    <figure style="display: inline-block; margin: 0;">
+  <!--NAVBAR MAIN SEGMENT BEGINS-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <!--NAVBAR MAIN TITLE-->
+  <a class="navbar-brand text-info" href="#"> ~|^_^|~ Portfolio Website ~|^_^|~</a>
+  <!--NAVBAR BUTTON, TOGGLER, ICON-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!--NAVBAR DIVS FOR SPECIFIC SECTIONS-->
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active text-info" href="#Home">Home Page <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link text-info" href="#Skills">Skills/Experience</a>
+      <a class="nav-item nav-link text-info" href="#LifeStory">My Life Story</a>
+      <a class="nav-item nav-link text-info" href="#Contact">Contact Me!</a>
+    </div>
+  </div>
+  <!--END OF NAVBAR SEGMENT-->
+</nav>
+
+<!--INTRODUCTION/HOME PAGE SEGMENT BEGINS-->
+<section id="Home">
+  <!--INTRODUCTION MAIN TITLE DIV-->
+  <div class="INTRODUCTION-TITLE-TEXT">
+    <hr style="border: 0; height: 5px; background-color: transparent;">
+    <h1><strong>][ INTRODUCTION ][</strong></h1>
+  </div>
+  <!--INTRODUCTION MAIN CONTAINER DIV-->
+  <div class="INTRODUCTION-CONTAINER">
+    <!--INTRODUCTION TEXT DIV-->
+    <div class="INTRODUCTION-PARAGRAPH-TEXT">
+      <p>Hi there! My name is Noah, and I'm an aspiring software engineer, entrepeneur, and a lifelong learner. This is my first Portfolio Page, it's not perfect but I found it really fun to truly customize and design it to my liking! Please try navigating with the NAVBAR up top! ^ I hope you enjoy :D</p>
+    </div>
+    <!--INTRODUCTION IMAGE DIV-->
+    <div class="INTRODUCTION-IMAGE-FIGURE">
+    <!--IMAGE USING "FIGURE" ELEMENT-->
+    <figure style="display: flexbox; margin: auto;">
       <img
         src="IMG_1260.JPG"
-        alt=""
+        alt="IMG_0804.jpg"
         style="width: 300px; height: auto; border: 3px solid #333333; display: flexbox;"
         />
-        <figcaption style="margin-top: 7px; font-size: 20px; font-family: 'Tiny5-1'; color: #555555;">
+        <figcaption style="margin-left: 7px; font-size: 20px; font-family: 'Tiny5-1'; color: #555555;">
           Pictured Above: Me :D
         </figcaption>
     </figure>
+    </div>
+  </div>
+  <!--END OF HOMEPAGE/INTRODUCTION SEGMENT-->
+  </section>
+  <hr style="border: 0; height: 10px; background-color: #333;">
+
+  <!--SKILLS/EXPERIENCE SEGMENT BEGINS-->
+  <section id="Skills">
+    <!--SKILLS MAIN TITLE DIV-->
+    <div class="SKILLS-TITLE-TEXT">
+      <hr style="border: 0; height: 5px; background-color: transparent;">
+      <h1><strong>][ SKILLS/EXPERIENCE ][</strong></h1>
+    </div>
+    <!--SKILLS CONTAINER-->
+    <div class="SKILLS-CONTAINER">
+      <!--SKILLS UNORDERED LIST DIVS-->
+      <div class="SKILLS-LIST-UNORDERED">
+        <ul class="SKILLS-UL">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-shield-lock" viewBox="0 0 16 16">
+              <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
+              <path d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415"/>
+            </svg>
+            <span>Cybersecurity Best Practices, Access Control, Malware Removal</span>
+            </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+              <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+            </svg>
+            <span>PC/Laptop Troubleshooting, Repair and Refurbishment</span>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-hdd-network" viewBox="0 0 16 16">
+              <path d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M3 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8.5v3a1.5 1.5 0 0 1 1.5 1.5h5.5a.5.5 0 0 1 0 1H10A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5H.5a.5.5 0 0 1 0-1H6A1.5 1.5 0 0 1 7.5 10V7H2a2 2 0 0 1-2-2zm1 0v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1m6 7.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5"/>
+            </svg>
+            <span>Network Configuration, Deployment, and Troubleshooting</span>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
+              <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+              <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z"/>
+            </svg>
+            <span>Creative Problem-Solving and Collaboration</span>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16">
+              <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6M13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6"/>
+            </svg>
+            <span>Using Javascript, CSS, and HTML for Web Development</span>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+              <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0"/>
+            </svg>
+            <span>Using C#, XAML, and .NET Frameworks for App Development</span>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
+              <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
+            </svg>
+            <span>Windows 11 Debugging, Batch and Powershell Scripts</span>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-device-hdd" viewBox="0 0 16 16">
+              <path d="M12 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-7.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M8 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+              <path d="M12 7a4 4 0 0 1-3.937 4c-.537.813-1.02 1.515-1.181 1.677a1.102 1.102 0 0 1-1.56-1.559c.1-.098.396-.314.795-.588A4 4 0 0 1 8 3a4 4 0 0 1 4 4m-1 0a3 3 0 1 0-3.891 2.865c.667-.44 1.396-.91 1.955-1.268.224-.144.483.115.34.34l-.62.96A3 3 0 0 0 11 7"/>
+              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+            </svg>
+            <span>Computer Imaging, Disk Recovery and Driver Implimentation</span>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-motherboard" viewBox="0 0 16 16">
+              <path d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5m2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5m-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0zm0 1h3v3H5zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
+              <path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1z"/>
+            </svg>
+            <span>Specialized Server, PC and System Deployments</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--EXPERIENCE PARAGRAPH TEXT DIV-->
+  <div class="EXPERIENCE-PARAGRAPH-TEXT">
+    <p>Throughout my career, I've held a <i>LOT</i> of various roles. I have a background in customer service, having worked for <i>Festival Foods</i>, <i>Walmart Neighborhood Market</i>, and recently joined the tech industry at <i>Digital Bridge NGO</i>. My background in customer service roles helped me understand just how far the tech gap is for the majority of the public, and my role at <i>Digital Bridge</i> gave me experience managing projects, repairing donated laptops, and securely handling data destruction/device imaging! My favorite thing about technology is that it's ever-evolving, and throughout my career I've gained an aptitude for solving problems in a creative way. My approach to team-based-collaboration and my adaptability grant me a unique perspective on solving everyday tech challenges!</p>
+  </div>
+  <!--END OF EXPERIENCE/SKILLS SEGMENT-->
+  </section>
+  <hr style="border: 0; height: 10px; background-color: #333;">
+
+  <!--START OF LIFE-STORY SEGMENT-->
+  <section id="LifeStory">
+    <div class="LIFE-STORY-TITLE-TEXT">
+      <hr style="border: 0; height: 5px; background-color: transparent;">
+      <h1><strong>][ MY LIFE STORY ][</strong></h1>
+    </div>
+    <!--LIFE STORY CONTAINER-->
+    <div class="LIFE-STORY-CONTAINER">
+
+    </div>
+    <!--END OF LIFE-STORY SEGMENT-->
+  </section>
+  <hr style="border: 0; height: 10px; background-color: #333;">
+
+  <!--START OF CONTACT-ME SEGMENT-->
+  <section id="Contact">
+    <div class="CONTACT-ME-TITLE-TEXT">
+      <hr style="border: 0; height: 5px; background-color: transparent;">
+      <h1><strong>][ CONTACT ME! ][</strong></h1>
+    </div>
+    <!--CONTACT ME CONTAINER-->
+    <div class="CONTACT-ME-CONTAINER">
+      <form>
+        <fieldset class=""
+      </form>
+    </div>
+    <!--END OF CONTACT ME SEGMENT-->
+  </section>
+
+    <!--MY JAVASCRIPT LINK (DEFERRED)-->
   <script src="script.js" defer></script>
+  <!--BOOTSTRAP JAVASCRIPT LINKS (!ORDERED!)-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!--END OF BODY SEGMENT-->
 </body>
+<!--END OF FILE!-->
 </html>
